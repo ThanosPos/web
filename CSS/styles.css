@@ -12,7 +12,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background-image: url('../../images/registradoraX64.png');
+    background-image: url('../images/registradorax64.png');
     background-repeat: repeat;
     background-color: rgb(185, 185, 233);
     margin: 0;
@@ -52,12 +52,12 @@ img{
     max-width: 80px;
 }
 
-.menu .navbar1 ul li{
+.menu .navbar ul li{
     position: relative;
     float: left;
 }
 
-.menu .navbar1 ul li a{
+.menu .navbar ul li a{
     display: block;
     padding: 20px;
     font-size: 18px;
@@ -68,7 +68,7 @@ img{
     background-clip: text;
 }
 
-.menu .navbar1 ul li a:hover{
+.menu .navbar ul li a:hover{
     /* Cambiar el color del hover para que sea visible sobre el gradiente */
     -webkit-text-fill-color: #ffffff;
     color: #ffffff;
@@ -671,4 +671,89 @@ th, td {
 }
 
 /* aliaspath */
+/* responsive */
+
+@media (max-width:991px){
+
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .logo{
+        display: none;
+    }
+    .menu .navbar ul li a:hover{
+        color: #ffffff;
+    }
+
+    .submenu:hover #carrito{
+        width: 100%;
+    }
+    .header{
+        padding: 50px 0 0 0;
+    }
+    .header-content{
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-txt{
+        margin-right: 0;
+    }
+    .butons{
+        justify-content: center;
+    }
+    .btn-1{
+        margin-bottom: 0;
+    }
+    .header-img{
+        display: none;
+    }
+    .oferts{
+        padding: 30px;
+        flex-direction: column;
+    }
+    .ofert-1{
+        margin-bottom: 15px;
+    }
+    .products{
+        padding: 0 30px 30px 30px;
+    }
+    .testimonial{
+        padding: 30px;
+    }
+    .testimonial-content{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .testimonial-1{
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
 

@@ -11,7 +11,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background-image: url('../../images/registradoraX64.png');
+    background-image: url('../images/registradorax642.png');
     background-repeat: repeat;
     background-color: rgb(185, 185, 233);
     margin: 0;
@@ -480,7 +480,7 @@ h2{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #FF9000;
+        background-color: #000000;
         display: none;
     }
     .menu .navbar ul li{
